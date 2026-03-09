@@ -1,0 +1,38 @@
+# --- Quartus II / Prime Temporary Files ---
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+*.qws
+*.suo
+*.vhd.bak
+*.vht.bak
+*.orig
+*.jdi
+*.done
+*.pin
+*.qdf
+*.summary
+*.sld
+*.smsg
+*.rpt
+*.txt
+
+# --- Compilation Output (Bitstreams) ---
+# Se você quiser guardar o arquivo que vai pra placa, remova *.sof e *.pof
+output_files/
+*.sof
+*.pof
+
+# --- Simulation (ModelSim / QuestaSim) ---
+simulation/
+*.mpf
+*.mti
+*.ini
+work/
+msim_transcript
+vsim.wlf
+
+# --- MacOS/Windows system files ---
+.DS_Store
+Thumbs.db
